@@ -1,0 +1,28 @@
+{
+  "azphalt": "0.1",
+  "id": "com.hereliesaz.azphalt.grid-guide",
+  "name": "Grid Guide",
+  "version": "1.0.0",
+  "kind": "code",
+  "license": "GPL-3.0-or-later",
+  "compat": ">=0.1",
+  "description": "Overlay a proportional grid on the layer — the grid method, so a sketch scales up onto a wall square by square. Major cells with optional subdivisions, alpha-blended in a chosen colour.",
+  "author": "HereLiesAz",
+  "runtime": "js",
+  "entry": "code/main.js",
+  "capabilities": [
+    "bitmap",
+    "params",
+    "color"
+  ],
+  "contributes": {
+    "filters": [
+      {
+        "id": "com.hereliesaz.azphalt.grid-guide",
+        "name": "Grid Guide",
+        "entry": "grid",
+        "ui": "ui/panel.json"
+      }
+    ]
+  }
+}
